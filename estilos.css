@@ -207,3 +207,7 @@ footer {
 img {
     height: 170px;
 }
+
+.greeting {
+    text-align: center;
+    }
