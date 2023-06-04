@@ -6,10 +6,6 @@ function showAlert() {
 
 
 const form = document.getElementById('myForm');
-form.addEventListener('submit', function (event) {
-    event.preventDefault();
-    validateForm();
-});
 
 
 function validateEmail(email) {
@@ -27,18 +23,18 @@ function validateForm() {
     }
 }
 
-if (form) {
-    form.addEventListener('submit', function (event) {
-        event.preventDefault();
-        validateForm();
-    })
+if (form)
+form.addEventListener('submit', function (event) {
+    event.preventDefault();
+    validateForm();
+})
+
     
-}
 
 document.querySelector ("button.button-menu-toggle")
     .addEventListener('click', function () {
         document.querySelector(".nav-links")
-            classList.toggle("nav-links-responsive")
+            .classList.toggle("nav-links-responsive")
     });
 
 

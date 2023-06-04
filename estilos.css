@@ -177,12 +177,13 @@ nav a:hover {
 .video-container {
     display: flex;
     align-items: center;
+    padding-bottom: 10px;
 }
 
 .img-container {
     display: inline-flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -205,7 +206,9 @@ footer {
 }
 
 img {
-    height: 170px;
+    display: flex;
+    height: 210px;
+    padding: 10px;
 }
 
 .greeting {
