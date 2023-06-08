@@ -191,19 +191,6 @@ main {
     min-height: 71vh;
 }
 
-footer {
-    position: relative;
-    bottom: 0;
-    z-index: -1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(151, 189, 176);
-    min-height: 200px;
-    justify-content: center;
-    text-align: center;
-    width: 100%;
-}
 
 img {
     display: flex;
@@ -214,3 +201,16 @@ img {
 .greeting {
     text-align: center;
     }
+
+footer {
+    background-color: rgb(151, 189, 176);
+    position: relative;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 200px;
+    justify-content: center;
+    text-align: center;
+
+}
