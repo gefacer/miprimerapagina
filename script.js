@@ -1,6 +1,6 @@
-function showAlert() {
-    alert(
-        '¡Bienvenido a JS!'
+function showAlert() { 
+    alert (
+        "¡Bienvenido a JS!"
     );
 }
 
